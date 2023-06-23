@@ -1,0 +1,38 @@
+<nav class="nav">
+    <div class="hamburger-menu">
+        <input type="checkbox">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+
+        <div [ngSwitch]="menuType" class="menu-items">
+            <!--Admin Menu-->
+            <ul *ngSwitchCase="'Admin'">
+                <li>{{AdminName | titlecase}}(Admin)</li>
+                <li><a routerLink="Admin-home">Settings</a></li>
+                <li><a routerLink="Home">Home</a></li>
+                <li><a routerLink="Admin-add-product">Add Product</a></li>
+                <li><a routerLink="quick-add">Quick Add Product</a></li>
+                <li><a (click)="logout()">Logout</a></li>
+
+            </ul>
+            <!--User Menu-->
+            <ul *ngSwitchCase="'user'">
+                <li>{{userName | uppercase}}</li>
+                <li><a routerLink="Home">Home</a></li>
+                <li *ngIf="add==='true'"><a routerLink="Admin-add-product">Add Product</a></li>
+                <li *ngIf="add==='true'"><a routerLink="quick-add">Quick Add Product</a></li>
+                <li><a (click)="userLogout()">Logout</a></li>
+            </ul>
+            <!--default Menu-->
+            <ul *ngSwitchCase="'default'">
+                <li><a routerLink="Admin">Admin</a></li>
+                <li><a>Home</a></li>
+                <li><a routerLink="/user-auth">Login/SignUp</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

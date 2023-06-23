@@ -1,0 +1,446 @@
+{
+  "admin": [
+    {
+      "name": "Aditi Sharma",
+      "email": "Aditi@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 2
+    },
+    {
+      "name": "shivam Sharma",
+      "email": "shivam@gmail.com",
+      "password": "xyz",
+      "id": 3
+    },
+    {
+      "name": "Mohit",
+      "password": "mohit",
+      "email": "Mohit@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "adi sharma",
+      "password": "123",
+      "email": "adi@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "adi sharma",
+      "password": "123",
+      "email": "adi@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "jim",
+      "password": "abcd",
+      "email": "jim@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Girraj Sharma",
+      "email": "girraj@gmail.com",
+      "password": "abc",
+      "id": 8
+    },
+    {
+      "name": "Girraj Sharma",
+      "email": "girraj@gmail.com",
+      "password": "abcdefg",
+      "id": 9
+    },
+    {
+      "name": "vinayak mudgal",
+      "email": "vinayak@gmail.com",
+      "password": "123456",
+      "id": 10
+    },
+    {
+      "name": "vinayak mudgal",
+      "email": "vinayak@gmail.com",
+      "password": 123456,
+      "id": 11
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "name": "jay yadav",
+      "email": "jay@gmail.com",
+      "password": "abcdefg",
+      "id": 13
+    },
+    {
+      "name": "ajay",
+      "email": "ajay@gmail.com",
+      "password": "12345678",
+      "id": 14
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "name": "shivam",
+      "email": "shivam@gmail.com",
+      "password": "abcdefg",
+      "id": 16
+    },
+    {
+      "name": "shivam",
+      "email": "shivam@gmail.com",
+      "password": "abcdefg",
+      "id": 17
+    },
+    {
+      "name": "shivam",
+      "email": "shivam@gmail.com",
+      "password": "abcdefg",
+      "id": 18
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 20
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 21
+    },
+    {
+      "name": "nitin",
+      "email": "nitin@gmail.com",
+      "password": "12345678",
+      "id": 22
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 23
+    },
+    {
+      "name": "Pari Sharma",
+      "email": "Pari@gmail.com",
+      "password": "123456",
+      "id": 24
+    },
+    {
+      "name": "Rachna sharma",
+      "email": "Rachna@gmail.com",
+      "password": "123456",
+      "id": 25
+    },
+    {
+      "name": "Rachna sharma",
+      "email": "Rachna@gmail.com",
+      "password": "123456",
+      "id": 26
+    },
+    {
+      "name": "Pari Sharma",
+      "email": "Pari@gmail.com",
+      "password": "123456789",
+      "id": 27
+    },
+    {
+      "name": "Pari Sharma",
+      "email": "Pari@gmail.com",
+      "password": "123456789",
+      "id": 28
+    },
+    {
+      "name": "Pari Sharma",
+      "email": "Pari@gmail.com",
+      "password": "abcdefg",
+      "id": 29
+    },
+    {
+      "name": "Nitin Sharma",
+      "email": "Nitin@gmail.com",
+      "password": "123456789",
+      "id": 30
+    },
+    {
+      "name": "Nitin Sharma",
+      "email": "Nitin@gmail.com",
+      "password": "123456789",
+      "id": 31
+    },
+    {
+      "name": "Nitin Sharma",
+      "email": "Nitin@gmail.com",
+      "password": "123456",
+      "id": 32
+    },
+    {
+      "name": "Nitin Sharma",
+      "email": "Nitin@gmail.com",
+      "password": "123456",
+      "id": 33
+    },
+    {
+      "name": "Ved",
+      "email": "ved@gmail.com",
+      "password": "123456789",
+      "id": 34
+    },
+    {
+      "name": "Ved",
+      "email": "ved@gmail.com",
+      "password": "123456789",
+      "id": 35
+    },
+    {
+      "name": "Pratham singh",
+      "email": "Pratham@gmail.com",
+      "password": "123456",
+      "id": 36
+    },
+    {
+      "name": "Pari Sharma",
+      "email": "Pari@gmail.com",
+      "password": "123456789",
+      "id": 37
+    }
+  ],
+  "products": [
+    {
+      "name": "Saffola Total Refined Cooking oil",
+      "heading": "Cooking Oil",
+      "subHeading": "Saffola Total Refined Cooking oil | Blended Rice Bran & Safflower oil | Helps Manage Cholesterol, 5 L Jar",
+      "stock": "60",
+      "tags": "oil,refined cooking oil,edible oil and ghee,blended oil",
+      "expiry": "09/01/2024",
+      "description": "When your family's heart health is your priority, we know that you go the extra mile to make them follow a heart-healthy lifestyle, to keep them away from heart related signs like cholesterol. Making the right choices can go a long way in taking care of heart health & an important choice is the oil you use. The right cooking oil can work hard and give you the right benefits. Saffola Total blended edible oil is clinically tested to take care of your heart in not just 1 but 8 ways. It helps manage your cholesterol. ",
+      "id": 9
+    },
+    {
+      "name": "Aashirvaad Atta",
+      "heading": "Aashirvaad Atta/Godihittu",
+      "subHeading": "Aashirvaad Atta/Godihittu - Whole Wheat, 10 kg",
+      "stock": "50",
+      "tags": "Foodgrains, Oil & Masala,Atta, Flour& Sooji, Whole Wheat",
+      "expiry": "24/01/2023",
+      "description": "Launched on 27th May 2002, Aashirvaad Whole Wheat Atta has now become number one in branded packaged atta across the country. Behind every Aashirvaad pack are the Indian farmers and Aashirvaad experts who’ve made the atta with extra care. Aashirvaad prides itself in making 100% pure whole wheat atta with all its natural dietary fibres intact which ensure that you and your family receive optimum nutrition for a healthy life.",
+      "id": 12
+    },
+    {
+      "name": "Lays Potato Chips",
+      "heading": "Lays Potato Chips - West Indies' Hot 'N' Sweet Chilli Flavour",
+      "subHeading": "Lays Potato Chips - West Indies' Hot 'N' Sweet Chilli Flavour, Crunchy Snacks, 23 g",
+      "stock": "90",
+      "tags": "snacks, branded Foods,namkeen, chips",
+      "expiry": "12/05/2024",
+      "description": "Experience an out-of-this-world blend of hot and sweet seasoning! The Lay’s West Indies Hot 'n' Sweet Chilli is an exciting adventure waiting to be unfolded.",
+      "id": 13
+    },
+    {
+      "name": "Bisk Farm Thinz",
+      "heading": "Bisk Farm Thinz - Almond, Light & Crispy",
+      "subHeading": "Bisk Farm Thinz - Almond, Light & Crispy, Teatime Snack, 50 g Pouch",
+      "stock": 40,
+      "tags": "snacks,tea time snacks,biscuit, wafers",
+      "expiry": "11-Dec-2023",
+      "description": "Indulge in the heavenly taste of Bisk Farm Almond Thinz. They are thin, crunchy, and delicious that have the goodness of almonds and make every bite a delight. It contains wheat and milk, which can curb your hunger instantly. Make some good memories by purchasing the Almond Thinz from Bisk Farm today.",
+      "id": 21
+    },
+    {
+      "name": "Bisk Farm Thinz",
+      "heading": "Bisk Farm Thinz - Almond, Light & Crispy",
+      "subHeading": "Bisk Farm Thinz - Almond, Light & Crispy, Teatime Snack, 50 g Pouch",
+      "stock": 40,
+      "tags": "snacks,tea time snacks,biscuit, wafers",
+      "expiry": "11-Dec-2023",
+      "description": "Indulge in the heavenly taste of Bisk Farm Almond Thinz. They are thin, crunchy, and delicious that have the goodness of almonds and make every bite a delight. It contains wheat and milk, which can curb your hunger instantly. Make some good memories by purchasing the Almond Thinz from Bisk Farm today.",
+      "id": 22
+    },
+    {
+      "name": "we",
+      "heading": "we",
+      "subheading": "we",
+      "stock": 250,
+      "tags": "we",
+      "expiry": "2323-04-23",
+      "description": "wertgh",
+      "id": 23
+    }
+  ],
+  "users": [
+    {
+      "name": "goldi",
+      "email": "goldi@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "vinay",
+      "email": "vinay@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "goldi",
+      "email": "goldi@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "vedant",
+      "email": "vedant@gmail.com",
+      "password": "xyz",
+      "id": 4
+    },
+    {
+      "name": "goldi",
+      "email": "goldi@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "goldi",
+      "email": "goldi@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "name": "rachna",
+      "email": "rachna@gmail.com",
+      "password": "12345678",
+      "id": 7
+    },
+    {
+      "name": "vinayak mudgal",
+      "email": "vinayak@gmail.com",
+      "password": 123456,
+      "id": 8
+    },
+    {
+      "name": "radha",
+      "email": "radha@gmail.com",
+      "password": "abcdefg",
+      "id": 9
+    },
+    {
+      "name": "radha",
+      "email": "radha@gmail.com",
+      "password": "abdefg",
+      "id": 10
+    },
+    {
+      "name": "radha",
+      "email": "radha@gmail.com",
+      "password": "abdefg",
+      "id": 11
+    },
+    {
+      "name": "usha",
+      "email": "usha@gmail.com",
+      "password": "abcdefg",
+      "id": 12
+    },
+    {
+      "name": "divya",
+      "email": "divya@gmail.com",
+      "password": "abcdefg",
+      "id": 13
+    },
+    {
+      "name": "divya",
+      "email": "divya@gmail.com",
+      "password": "abcdefg",
+      "id": 14
+    },
+    {
+      "name": "divya",
+      "email": "divya@gmail.com",
+      "password": "12345678",
+      "id": 15
+    },
+    {
+      "name": "janvi",
+      "email": "janvi@gmail.com",
+      "password": "abcdef",
+      "id": 16
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "password": "12345678",
+      "id": 18
+    },
+    {
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "password": "12345678",
+      "id": 19
+    },
+    {
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "password": "12345678",
+      "id": 20
+    },
+    {
+      "name": "vishal",
+      "email": "vishal@gmail.com",
+      "password": "12345678",
+      "id": 21
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 22
+    },
+    {
+      "name": "shiv sharma",
+      "email": "shiv@gmail.com",
+      "password": "123456",
+      "id": 23
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 24
+    },
+    {
+      "name": "Pari Sharma",
+      "email": "Pari@gmail.com",
+      "password": "123456",
+      "id": 25
+    },
+    {
+      "name": "dev sharma",
+      "email": "dev@gmail.com",
+      "password": "123456",
+      "id": 26
+    }
+  ]
+}

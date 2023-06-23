@@ -1,0 +1,49 @@
+    <div *ngIf="!showLogin" class="sign-up">
+        <h1><i class="fa fa-user" aria-hidden="true"></i> Admin</h1>
+        <form #AdminSignUp="ngForm" (ngSubmit)="signUp(AdminSignUp.value)" class="common-form">
+            
+            <div class="input-icons">
+             <i class="fa fa-user-circle icon" aria-hidden="true"></i> 
+             <input type="text" class="form-input" placeholder="Enter Name" name="name" ngModel required>
+            </div>
+            
+            <div class="input-icons">
+            <i class="fa fa-envelope icon" aria-hidden="true"></i>
+            <input type="email" class="form-input" placeholder="Enter Email" name="email" ngModel email required>
+            </div>
+
+            <div class="input-icons">
+            <i class="fa fa-unlock-alt icon" aria-hidden="true"></i>
+            <input type="password" class="form-input" placeholder="Enter Password" name="password" ngModel
+                minlength="5" required>
+            </div>
+
+            <button class="form-button" [disabled]="AdminSignUp.invalid">Sign up</button>
+            <a (click)="openLogin()" class="Admin-toggle-link">Login</a>
+        </form>
+    </div>
+   
+    <div class="Login" *ngIf="showLogin">
+        <h1><i class="fa fa-user" aria-hidden="true"></i> Admin</h1>
+        <p class="error-p">{{AuthError}}</p>
+        
+        <form #AdminLogin="ngForm" (ngSubmit)="login(AdminLogin.value)" class="common-form">
+            <div class="input-icons">
+            <i class="fa fa-envelope icon" aria-hidden="true"></i>
+            <input type="text" class="form-input" placeholder="Enter Email" name="email" #email="ngModel" ngModel required email>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please enter valid value</span></p>
+            </div>
+            
+            <div class="input-icons">
+            <i class="fa fa-unlock-alt icon" aria-hidden="true"></i>
+            <input type="password" class="form-input" placeholder="Enter Password" name="password" #password="ngModel"
+                ngModel required minlength="5">
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please enter valid value</span>
+            </p>
+            </div>
+
+            <button class="form-button" [disabled]="AdminLogin.invalid">Login</button>
+            <a (click)="openSignUp()" class="Admin-toggle-link">SignUp</a>
+
+        </form>
+    </div> 

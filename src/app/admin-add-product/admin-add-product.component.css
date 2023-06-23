@@ -1,0 +1,24 @@
+h1{
+    color: rgb(78, 46, 109);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.add-product{
+    text-align: center;
+}
+.form-button{
+    background-color: rgb(73, 34, 109);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form-button1{
+    background-color: rgb(73, 34, 109);
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 123px;
+    padding-right: 123px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+

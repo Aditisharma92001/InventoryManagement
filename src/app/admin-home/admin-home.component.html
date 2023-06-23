@@ -1,0 +1,45 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+
+<div class="action-list">
+    <table class="center">
+        <thead>
+            <tr>
+                <th>Actions</th>
+                <th colspan="2">Permissions</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Allow user to delete records?</td>
+                <td><input type="checkbox" (click)="permission('session','true')" class="btn "> Allow
+                </td>
+                <td><input type="checkbox" (click)="permission('session','false')" class="btn "> Do not allow
+                </td>
+
+            </tr>
+            <tr>
+                <td>Allow user to edit records?</td>
+                <td><input type="checkbox" (click)="permission('sessionEdit','true')" class="btn ">Allow
+                </td>
+                <td><input type="checkbox" (click)="permission('sessionEdit','false')" class="btn "> Do not allow
+                </td>
+            </tr>
+            <tr>
+                <td>Allow user to search records?</td>
+                <td><input type="checkbox" (click)="permission('sessionSearch','true')" class="btn ">Allow
+                </td>
+                <td><input type="checkbox" (click)="permission('sessionSearch','false')" class="btn "> Do not allow
+                </td>
+            </tr>
+            <tr>
+                <td>Allow user to create new records?</td>
+                <td><input type="checkbox" (click)="permission('sessionAdd','true')" class="btn">Allow</td>
+                <td><input type="checkbox" (click)="permission('sessionAdd','false')" class="btn"> Do not allow</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <button (click)="Reset()" class="form-button">Reset</button>
+
+</div>
